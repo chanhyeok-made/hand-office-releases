@@ -598,5 +598,34 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.541/HandOfficeAgent.zip" type="application/octet-stream" length="38873099" sparkle:edSignature="gbFGdAZlzpUWrR1IsEmpqtHCKCNH87zzRxLZ5LCyJt/t25JnOHyVq5wjX4bN30TEVA87VhIwmxNfQE4HbkMHDw==" />
     </item>
+    <item>
+      <title>v1.0.542</title>
+      <pubDate>Fri, 08 May 2026 16:48:56 +0000</pubDate>
+      <sparkle:version>1.0.542</sparkle:version>
+      <sparkle:shortVersionString>1.0.542</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>mac: release-mac.sh NOTES heading + fallback messages — English (사용자 spec)</li>
+  <li>mac: SessionsService -F separator | (pipe, Swift \t spawn 변환 anomaly fix)</li>
+  <li>mac: release-mac.sh NOTES HTML format (Sparkle WebKit render — 사용자 spec md visualize)</li>
+  <li>mac: release-mac.sh NOTES default — user-facing summary (commit log since previous tag, dev install 안내 제거)</li>
+  <li>mac: chief direct — version display + Sparkle update detection fix + onboarding dual lang</li>
+  <li>mac: SessionsService Logger + file write evidence (NSLog unified log filter 회피)</li>
+  <li>mac: release-mac.sh asset name fix (cp + rename to HandOfficeAgent.zip/.dmg, gh #displayName syntax 의 label-only effect 회피)</li>
+  <li>mac: release-mac.sh git reset FETCH_HEAD (origin/main ref 부재 fix)</li>
+</ul>
+<p class="meta">Build <code>v1.0.542</code> · 2026-05-08 16:48 UTC · .dmg 39M / .zip 37M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.542/HandOfficeAgent.zip" type="application/octet-stream" length="38873088" sparkle:edSignature="IQTS5/UL4WkbD1LsxwygoTxpA6GYDXzts9ZGZhka8TOBtPvTvzsd6354OzhNsXwXKFD8j2EtwPq9WHmLe0uyAQ==" />
+    </item>
   </channel>
 </rss>
