@@ -514,5 +514,29 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.538/HandOfficeAgent.zip" type="application/octet-stream" length="38873041" sparkle:edSignature="OGe/zL9qQkcHjzQGesZW1kjtYcB+ofsEvzsir/ZVBnyyLjn6phvBYritC/+YR/bll4TObIVeYdW0eqHChA3iAg==" />
     </item>
+    <item>
+      <title>v1.0.539</title>
+      <pubDate>Fri, 08 May 2026 16:33:46 +0000</pubDate>
+      <sparkle:version>1.0.539</sparkle:version>
+      <sparkle:shortVersionString>1.0.539</sparkle:shortVersionString>
+      <description><![CDATA[
+이번 업데이트의 변경사항:
+
+- mac: release-mac.sh NOTES default — user-facing summary (commit log since previous tag, dev install 안내 제거)
+- mac: chief direct — version display + Sparkle update detection fix + onboarding dual lang
+- mac: SessionsService Logger + file write evidence (NSLog unified log filter 회피)
+- mac: release-mac.sh asset name fix (cp + rename to HandOfficeAgent.zip/.dmg, gh #displayName syntax 의 label-only effect 회피)
+- mac: release-mac.sh git reset FETCH_HEAD (origin/main ref 부재 fix)
+- mac: chief direct — first-launch onboarding window (welcome / permission / pairing / cli / done)
+- mac: release-mac.sh single security call (background spawn race fix)
+- architect: [Cohesive cycle 33 LAND] Mac agent 로그인 + Debug feature gating 2 spec first pass + 사용자 결정 form 5 결정 + Sessions feature fix priority ack + axis 13 cohesive (iOS #0136 status verification prerequisite) + axis 12 4+3 baseline 13 cycle 연속 적용
+- 변경사항 없음
+
+빌드: `v1.0.539`
+- Built: 2026-05-08 16:31 UTC
+- Size: `.dmg` 40M / `.zip` 37M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.539/HandOfficeAgent.zip" type="application/octet-stream" length="38873096" sparkle:edSignature="Lb6qZKgDR5S/fIWwyGaYVH/njVDjAbkBw5rYjq2ciuL5nrkHmqkfW1iXm+ytsum7lkXoC9jmwNKQs2in9fTDAA==" />
+    </item>
   </channel>
 </rss>
