@@ -1,0 +1,413 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hand Office Agent</title>
+    <description>Hand Office Mac agent + menubar app updates</description>
+    <language>en</language>
+    <link>https://github.com/chanhyeok-made/hand-office</link>
+
+    <!--
+      Sparkle appcast feed (#0046 Phase 1).
+      Spec: roles/architect/specs/mac-binary-deploy-automation.md.
+
+      한 release 마다 <item> 추가 — release-mac.sh extension 이 자동 generation
+      (Sub 2 commit). Phase 1 첫 publish 전엔 비어있음 (사용자 mac 의 메뉴바 앱이
+      check 시 "no updates" 응답).
+
+      Format reference: https://sparkle-project.org/documentation/publishing/
+
+      Required fields per item:
+        <title>            release name
+        <pubDate>          RFC 822 format (Wed, 01 May 2026 00:00:00 +0000)
+        <enclosure
+          url=             release artifact URL (GitHub release asset .zip)
+          sparkle:version= internal build number (CFBundleVersion)
+          sparkle:shortVersionString= human version (CFBundleShortVersionString)
+          length=          bytes
+          type="application/octet-stream"
+          sparkle:edSignature= Ed25519 signature (sign_update tool 산출)
+        />
+        <description>      release notes (HTML)
+    -->
+
+    <item>
+      <title>v1.0.344</title>
+      <pubDate>Sat, 02 May 2026 06:20:03 +0000</pubDate>
+      <sparkle:version>1.0.344</sparkle:version>
+      <sparkle:shortVersionString>1.0.344</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple 검증 X).
+
+## 설치
+
+1. `HandOfficeAgent.zip` 다운로드 → 압축 해제 → `/Applications` 로 이동.
+2. 첫 실행: 우클릭 → Open. Gatekeeper 가 막으면 한 번 "Open Anyway" 누르면 됨.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.344`
+- Source: `099ad7a`
+- Built: 2026-05-02 05:12 UTC
+- Size: 18M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.344/HandOfficeAgent.zip" type="application/octet-stream" length="19110372" sparkle:edSignature="iXYSL0YF8jwkzwRW9EPG6ssudWtG68s2nea+vaJu7V2zXWJ3fdYIJPyKw/6RdBI7icfjX3zE70QQOE908+qYCw==" />
+    </item>
+    <item>
+      <title>v1.0.353</title>
+      <pubDate>Sat, 02 May 2026 12:15:06 +0000</pubDate>
+      <sparkle:version>1.0.353</sparkle:version>
+      <sparkle:shortVersionString>1.0.353</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.353`
+- Source: `bf73ff7`
+- Built: 2026-05-02 12:13 UTC
+- Size: `.dmg` 19M / `.zip` 18M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.353/HandOfficeAgent.zip" type="application/octet-stream" length="19125443" sparkle:edSignature="fsCyA1Sdp9tbohRS4O41FCuuhpPAkqBDs1jhhmce6X+2PJ7ET7EyewAOXwOIZSC/96dtdvQO68Sfh5nSQfNCAQ==" />
+    </item>
+    <item>
+      <title>v1.0.355</title>
+      <pubDate>Sat, 02 May 2026 12:39:34 +0000</pubDate>
+      <sparkle:version>1.0.355</sparkle:version>
+      <sparkle:shortVersionString>1.0.355</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.355`
+- Source: `11d0548`
+- Built: 2026-05-02 12:39 UTC
+- Size: `.dmg` 19M / `.zip` 18M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.355/HandOfficeAgent.zip" type="application/octet-stream" length="19125690" sparkle:edSignature="OL20VSH6YNWsLmzOTOsfSCjfxTsTimHNBM0LYRxJRd+BLr/ff+nvLjqYpj58Ysp9OQZM7pHlIfsS37B/zrg1Cw==" />
+    </item>
+    <item>
+      <title>v1.0.358</title>
+      <pubDate>Sat, 02 May 2026 12:46:52 +0000</pubDate>
+      <sparkle:version>1.0.358</sparkle:version>
+      <sparkle:shortVersionString>1.0.358</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.358`
+- Source: `dda6a0e`
+- Built: 2026-05-02 12:46 UTC
+- Size: `.dmg` 19M / `.zip` 18M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.358/HandOfficeAgent.zip" type="application/octet-stream" length="19125236" sparkle:edSignature="+2+m4zM1aQU/wRq9LsI61V8tE7gSLzUStvtLkWWOxVJVN/55mgUnAkCVmIyKv0xYTF2/20HRwNnVQRdRCaAmBw==" />
+    </item>
+    <item>
+      <title>v1.0.416</title>
+      <pubDate>Sat, 02 May 2026 16:56:42 +0000</pubDate>
+      <sparkle:version>1.0.416</sparkle:version>
+      <sparkle:shortVersionString>1.0.416</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.416`
+- Source: `9a86284`
+- Built: 2026-05-02 16:56 UTC
+- Size: `.dmg` 19M / `.zip` 19M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.416/HandOfficeAgent.zip" type="application/octet-stream" length="19125247" sparkle:edSignature="abFI+VIhikLvYdM982aSWMmytsDxIYuTLzrwXpsIi9Uzkqj8Km4ohZMkjMjs9uKyLJbO3SdsOLmVnCS449C/AQ==" />
+    </item>
+    <item>
+      <title>v1.0.425</title>
+      <pubDate>Sat, 02 May 2026 17:32:23 +0000</pubDate>
+      <sparkle:version>1.0.425</sparkle:version>
+      <sparkle:shortVersionString>1.0.425</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.425`
+- Source: `d95c997`
+- Built: 2026-05-02 17:31 UTC
+- Size: `.dmg` 19M / `.zip` 18M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.425/HandOfficeAgent.zip" type="application/octet-stream" length="19125509" sparkle:edSignature="NAofsKp2bMNBAf9DLyoibNnH3CXqCB6WaQDfngwLn5QbKBzkEInRCIIWmqtJnxyZwIMYCl8DVEMzb3NsLnatAA==" />
+    </item>
+    <item>
+      <title>v1.0.434</title>
+      <pubDate>Sun, 03 May 2026 00:58:14 +0000</pubDate>
+      <sparkle:version>1.0.434</sparkle:version>
+      <sparkle:shortVersionString>1.0.434</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.434`
+- Source: `49a82c2`
+- Built: 2026-05-03 00:57 UTC
+- Size: `.dmg` 19M / `.zip` 19M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.434/HandOfficeAgent.zip" type="application/octet-stream" length="19126454" sparkle:edSignature="Xw2kMIOf7vSw43SVG8hLVgmaQTHP5bJVjN8PpXJ+p0kpeBPz3Bgmr6TiM+ydx6vCmLDEsJLVp0WlL+V1PpeQBw==" />
+    </item>
+    <item>
+      <title>v1.0.527</title>
+      <pubDate>Wed, 06 May 2026 07:13:32 +0000</pubDate>
+      <sparkle:version>1.0.527</sparkle:version>
+      <sparkle:shortVersionString>1.0.527</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.527`
+- Source: `fcb8a23`
+- Built: 2026-05-06 07:13 UTC
+- Size: `.dmg` 40M / `.zip` 37M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.527/HandOfficeAgent.zip" type="application/octet-stream" length="38497387" sparkle:edSignature="lp4xrCltpMy5cjqjUkYBaA9SgHxKKLcGmXJh2DiwAeQG5K48UxLgmchTc+PfsQ6Z1ePM91yhAs8aE92Ll1p1BA==" />
+    </item>
+    <item>
+      <title>v1.0.527</title>
+      <pubDate>Fri, 08 May 2026 13:13:39 +0000</pubDate>
+      <sparkle:version>1.0.527</sparkle:version>
+      <sparkle:shortVersionString>1.0.527</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.527`
+- Source: `fcb8a23`
+- Built: 2026-05-08 13:11 UTC
+- Size: `.dmg` 40M / `.zip` 37M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.527/HandOfficeAgent.zip" type="application/octet-stream" length="38663874" sparkle:edSignature="/M9G6HuC/GrYGaInGEUNXCoxU2mtCozsNdLLU4jcNsKkLy7btv8sMsJl7VBYPcztxLNzuQi1UUzZSWNzptAcBw==" />
+    </item>
+    <item>
+      <title>v1.0.529</title>
+      <pubDate>Fri, 08 May 2026 14:32:23 +0000</pubDate>
+      <sparkle:version>1.0.529</sparkle:version>
+      <sparkle:shortVersionString>1.0.529</sparkle:shortVersionString>
+      <description><![CDATA[
+Dev 빌드. macOS 14+ arm64. 코드 서명은 ad-hoc (Apple Developer ID 미적용).
+
+## 설치 (첫 download — DMG 권장)
+
+1. `HandOfficeAgent.dmg` 다운로드 → 더블클릭으로 마운트 → `HandOfficeAgent.app` 을 `/Applications` 으로 drag-drop.
+2. 사용자 첫 launch (Gatekeeper 우회):
+   ```
+   xattr -dr com.apple.quarantine /Applications/HandOfficeAgent.app
+   ```
+   그 후 우클릭 → Open. Gatekeeper "Open Anyway" 한 번.
+3. 메뉴바 ⚡ 아이콘 클릭 → "Show pairing QR" → iPhone 앱에서 스캔.
+
+⚠️ `HandOfficeAgent.zip` 으로 download 후 Safari 자동 unzip 시 framework
+symlink mangle → "sealed resource missing" → install 실패. zip 은 Sparkle
+auto-update 전용 (사용자 mac 의 Sparkle 가 ditto 으로 자동 extract).
+
+수동 zip extract 시 `ditto -x -k HandOfficeAgent.zip /tmp/extract/` 사용
+권장 (unzip 금지).
+
+기존 `launchd` 서비스 (`scripts/install-service.sh`) 가 돌고 있으면 먼저:
+```
+bash scripts/uninstall-service.sh
+```
+
+## 빌드 정보
+
+- Tag: `v1.0.529`
+- Source: `d8126d3`
+- Built: 2026-05-08 14:30 UTC
+- Size: `.dmg` 40M / `.zip` 38M
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.529/HandOfficeAgent.zip" type="application/octet-stream" length="38757437" sparkle:edSignature="AsaCH0vtp5FFo+KMeGt1/zVN7zw3D1B2Bw4wtxC/a0c1V8JVeiZzHjOqI3vZB9E9CuMIZEtIc0wn0XJeVa+dCw==" />
+    </item>
+  </channel>
+</rss>
