@@ -423,5 +423,18 @@ Hand Office Agent v1.0.533 (chief direct manual finalize)
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.533/HandOfficeAgent.zip" type="application/octet-stream" length="38810843" sparkle:edSignature="q/M1H1CfsV70GuNqzJ/Es+6XJXSfYett3z2IRCwbGqLPgalnF0CVH7+pocVnmhuLsifaPSdQ3wm+5ym/RKViCQ==" />
     </item>
+    <item>
+      <title>v1.0.534</title>
+      <pubDate>Fri, 08 May 2026 16:13:50 +0000</pubDate>
+      <sparkle:version>1.0.534</sparkle:version>
+      <sparkle:shortVersionString>1.0.534</sparkle:shortVersionString>
+      <description><![CDATA[
+Hand Office Agent v1.0.534
+
+- Onboarding window (first-launch guide)
+- release-mac.sh git fetch FETCH_HEAD fix
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.534/HandOfficeAgent.zip" type="application/octet-stream" length="38859064" sparkle:edSignature="XL29QAdB9q8nTibqK6ESNg9BMc8EuLEJe+nFkYXZ87pcLW66ESJXiMXUax8W4XofH/vyCWf5zz3vQztY/+r6Bg==" />
+    </item>
   </channel>
 </rss>
