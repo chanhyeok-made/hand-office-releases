@@ -409,5 +409,19 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office/releases/download/v1.0.529/HandOfficeAgent.zip" type="application/octet-stream" length="38757437" sparkle:edSignature="AsaCH0vtp5FFo+KMeGt1/zVN7zw3D1B2Bw4wtxC/a0c1V8JVeiZzHjOqI3vZB9E9CuMIZEtIc0wn0XJeVa+dCw==" />
     </item>
+    <item>
+      <title>v1.0.533</title>
+      <pubDate>Fri, 08 May 2026 15:29:58 +0000</pubDate>
+      <sparkle:version>1.0.533</sparkle:version>
+      <sparkle:shortVersionString>1.0.533</sparkle:shortVersionString>
+      <description><![CDATA[
+Hand Office Agent v1.0.533 (chief direct manual finalize)
+
+- Sessions feature debug NSLog (commit a71af14)
+- Single security call detect fix (commit eb64e73)
+- Hand-office-releases repo seed (chief manual)
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.533/HandOfficeAgent.zip" type="application/octet-stream" length="38810843" sparkle:edSignature="q/M1H1CfsV70GuNqzJ/Es+6XJXSfYett3z2IRCwbGqLPgalnF0CVH7+pocVnmhuLsifaPSdQ3wm+5ym/RKViCQ==" />
+    </item>
   </channel>
 </rss>
