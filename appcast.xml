@@ -627,5 +627,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.542/HandOfficeAgent.zip" type="application/octet-stream" length="38873088" sparkle:edSignature="IQTS5/UL4WkbD1LsxwygoTxpA6GYDXzts9ZGZhka8TOBtPvTvzsd6354OzhNsXwXKFD8j2EtwPq9WHmLe0uyAQ==" />
     </item>
+    <item>
+      <title>v1.0.544</title>
+      <pubDate>Fri, 08 May 2026 17:05:49 +0000</pubDate>
+      <sparkle:version>1.0.544</sparkle:version>
+      <sparkle:shortVersionString>1.0.544</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>mac: chief direct — Sessions UX redesign + AppleScript automation entitlement</li>
+  <li>mac: release-mac.sh apostrophe in NOTES heredoc bash syntax fix</li>
+  <li>mac: release-mac.sh NOTES heading + fallback messages — English (사용자 spec)</li>
+  <li>mac: SessionsService -F separator | (pipe, Swift \t spawn 변환 anomaly fix)</li>
+  <li>mac: release-mac.sh NOTES HTML format (Sparkle WebKit render — 사용자 spec md visualize)</li>
+  <li>mac: release-mac.sh NOTES default — user-facing summary (commit log since previous tag, dev install 안내 제거)</li>
+  <li>mac: chief direct — version display + Sparkle update detection fix + onboarding dual lang</li>
+  <li>mac: SessionsService Logger + file write evidence (NSLog unified log filter 회피)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.544</code> · 2026-05-08 17:04 UTC · .dmg 40M / .zip 37M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.544/HandOfficeAgent.zip" type="application/octet-stream" length="38892573" sparkle:edSignature="bnGB5JkVhNA188h5LWBEn1Dr6gx+y/Hng/6fjliSnFJLRQcx7NCOxiooI/yj8wUleAtPaP/zlxzG1K26wIzyDw==" />
+    </item>
   </channel>
 </rss>
