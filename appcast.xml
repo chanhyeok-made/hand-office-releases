@@ -657,5 +657,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.544/HandOfficeAgent.zip" type="application/octet-stream" length="38892573" sparkle:edSignature="bnGB5JkVhNA188h5LWBEn1Dr6gx+y/Hng/6fjliSnFJLRQcx7NCOxiooI/yj8wUleAtPaP/zlxzG1K26wIzyDw==" />
     </item>
+    <item>
+      <title>v1.0.564</title>
+      <pubDate>Sat, 09 May 2026 03:02:21 +0000</pubDate>
+      <sparkle:version>1.0.564</sparkle:version>
+      <sparkle:shortVersionString>1.0.564</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>mac: chief direct — Apple Sign In entitlement 임시 제거 (Phase C 별 cycle)</li>
+  <li>mac: release-mac.sh PROVISIONING_PROFILE_SPECIFIER (Sign in with Apple capability)</li>
+  <li>architect: [Cohesive cycle 43 LAND — Phase B total 9/9 sub LAND COMPLETE ✓] Mac AC-M4 + AC-M5 동시 LAND 0dad624 + 54fc1d0 — Phase B Mac 5/5 COMPLETE + Phase B total 9/9 sub LAND COMPLETE (optional AC-I3 제외) + axis 12 4+3 post-baseline 18th application (23 cycle 연속 적용) + Mac team self-applied perfect form continued (cohesive 27+28+37+41+42+43 = 6 cycle baseline strongest accumulation) + iOS pattern reuse cross-part cohesive 6 cycle baseline + own/admin endpoint + UI 분리 clean architecture + Phase B close-with-decision criteria 충족 (사용자 dogfood prerequisite)</li>
+  <li>mac: [Phase B AC-M5] Account Manager Admin tab + admin endpoints + admin unpair</li>
+  <li>mac: [Phase B AC-M4] Unpair flow — confirm + Touch ID + DELETE endpoint</li>
+  <li>architect: [Cohesive cycle 42 LAND] Mac AC-M3 Account popover + Manager UI LAND d18b333 — axis 12 4+3 post-baseline 17th application (22 cycle 연속 적용) + Mac team self-applied perfect form continued (cohesive 27+28+37+41+42 baseline strongest accumulation) + iOS pattern reuse cross-part cohesive (cohesive 35+38+40+41+42 baseline) + AC-M4/M5 prerequisite cleared + Phase B total 7/9 sub LAND</li>
+  <li>mac: [Phase B AC-M3] Account popover row + Manager window UI (My Account tab)</li>
+  <li>architect: [Cohesive cycle 41 LAND — Phase B first cycle 5/5 COMPLETE ✓] Mac AC-M2 LAND a2297b4 — axis 12 4+3 post-baseline 16th application (21 cycle 연속 적용) + Mac team self-applied perfect form (5 file split + single responsibility + iOS pattern align) + AC-M3/M4/M5 prerequisite cleared + Phase B total 6/9 sub LAND</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.564</code> · 2026-05-09 03:00 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.564/HandOfficeAgent.zip" type="application/octet-stream" length="39265696" sparkle:edSignature="uSxhJGv5brehPfRS3tMVxgig1T0NN0dc+iFUB9oZbF7gGE8Q4/C0Gw6cxSOfyjU/b+5nocLb9DrErCqnqf0ICg==" />
+    </item>
   </channel>
 </rss>
