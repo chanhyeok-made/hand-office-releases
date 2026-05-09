@@ -687,5 +687,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.564/HandOfficeAgent.zip" type="application/octet-stream" length="39265696" sparkle:edSignature="uSxhJGv5brehPfRS3tMVxgig1T0NN0dc+iFUB9oZbF7gGE8Q4/C0Gw6cxSOfyjU/b+5nocLb9DrErCqnqf0ICg==" />
     </item>
+    <item>
+      <title>v1.0.570</title>
+      <pubDate>Sat, 09 May 2026 14:32:53 +0000</pubDate>
+      <sparkle:version>1.0.570</sparkle:version>
+      <sparkle:shortVersionString>1.0.570</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>architect: [Phase C 사용자 dogfood entry point active] Mac team race condition acknowledge + 사용자 mac 새 release 의무 chief forward (release-mac.sh trigger or Sparkle update path)</li>
+  <li>architect: [Cohesive cycle 46 LAND] Mac PC-M1 LAND 02a0fa1 + chief expertise cohesive (Apple 공식 unsupported root architectural fix evidence) + axis 12 4+3 post-baseline 20th application (26 cycle 연속 적용) + Mac team self-applied perfect 7 cycle baseline (cohesive 27+28+37+41+42+43+46) + Phase C 2/3 sub LAND + Cross-process IPC clean separation (agent Go ↔ menubar Swift)</li>
+  <li>architect: [Cohesive cycle 45 LAND] iOS Sub PC-I1 LAND 1.0.566 (7ac624f) — Apple Sign In via iOS pairing token transfer + axis 12 4+3 post-baseline 19th application (25 cycle 연속 적용) + Phase C first sub LAND + iOS team self-applied evidence-driven 4 cycle baseline (cohesive 31+38+40+45) + existing PeerClient.sendDCText reuse clean architecture + AccountSession mirror baseline evolve + Mac PC-M1 prerequisite cleared</li>
+  <li>mac: [Phase C PC-M1] Apple Sign In via iOS pairing token receive (DC + IPC + UI Path B)</li>
+  <li>ios: Phase C Sub PC-I1 — Apple Sign In via iOS pairing token transfer (auth.session.transfer DC text JSON + AccountView button)</li>
+  <li>architect: [Cohesive cycle 44 LAND] Phase C spec design + cross-part directive 분배 — Apple Sign In via iOS pairing token transfer + 사용자 결정 A+C 동시 진행 align + Option A (P2P transfer via DC) recommend + NEW message type auth.session.transfer + 3 sub directive (iOS Sub PC-I1 + Mac Sub PC-M1 + Architect Sub PC-A1) + axis 12 4+3 baseline 24 cycle 연속 적용</li>
+  <li>mac: chief direct — Apple Sign In entitlement 임시 제거 (Phase C 별 cycle)</li>
+  <li>mac: release-mac.sh PROVISIONING_PROFILE_SPECIFIER (Sign in with Apple capability)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.570</code> · 2026-05-09 14:30 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.570/HandOfficeAgent.zip" type="application/octet-stream" length="39272345" sparkle:edSignature="s4gvbwuN9E+0Ie1VoikVUnw6XAqVlqfjbM3jOYeMNIkecGk9aRB9jWmB1E533Y+7NJ08qUQbpYVsGSRGk2A4BA==" />
+    </item>
   </channel>
 </rss>
