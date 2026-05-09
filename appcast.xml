@@ -717,5 +717,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.570/HandOfficeAgent.zip" type="application/octet-stream" length="39272345" sparkle:edSignature="s4gvbwuN9E+0Ie1VoikVUnw6XAqVlqfjbM3jOYeMNIkecGk9aRB9jWmB1E533Y+7NJ08qUQbpYVsGSRGk2A4BA==" />
     </item>
+    <item>
+      <title>v1.0.573</title>
+      <pubDate>Sat, 09 May 2026 14:55:11 +0000</pubDate>
+      <sparkle:version>1.0.573</sparkle:version>
+      <sparkle:shortVersionString>1.0.573</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>architect: [Cohesive cycle 47 LAND] Mac PC-M1 root fix LAND b5ff52c — 사용자 dogfood race root narrow + fix (AccountAPI baseURL /account prefix bug) + axis 12 4+3 post-baseline 21st application (27 cycle 연속 적용) + 사용자 dogfood = ultimate gate strongest evidence (cohesive 19 abandon retro learning 재확인) + iOS pattern align baseline (cross-part cohesive) + Mac team self-applied perfect 8 cycle baseline + Race trace 명확화 (5 가설 narrow → H5 ROOT) + Defense in depth + Logger evidence + chief 부탁 4 항목 모두 cover</li>
+  <li>mac: [PC-M1 root fix] AccountAPI baseURL 의 잘못된 /account prefix 제거 + 401만 signOut + Logger evidence</li>
+  <li>mac: chief direct — Sparkle CDN cache bust delegate (사용자 burden 5 min wait/restart 제거)</li>
+  <li>architect: [Phase C 사용자 dogfood entry point active] Mac team race condition acknowledge + 사용자 mac 새 release 의무 chief forward (release-mac.sh trigger or Sparkle update path)</li>
+  <li>architect: [Cohesive cycle 46 LAND] Mac PC-M1 LAND 02a0fa1 + chief expertise cohesive (Apple 공식 unsupported root architectural fix evidence) + axis 12 4+3 post-baseline 20th application (26 cycle 연속 적용) + Mac team self-applied perfect 7 cycle baseline (cohesive 27+28+37+41+42+43+46) + Phase C 2/3 sub LAND + Cross-process IPC clean separation (agent Go ↔ menubar Swift)</li>
+  <li>architect: [Cohesive cycle 45 LAND] iOS Sub PC-I1 LAND 1.0.566 (7ac624f) — Apple Sign In via iOS pairing token transfer + axis 12 4+3 post-baseline 19th application (25 cycle 연속 적용) + Phase C first sub LAND + iOS team self-applied evidence-driven 4 cycle baseline (cohesive 31+38+40+45) + existing PeerClient.sendDCText reuse clean architecture + AccountSession mirror baseline evolve + Mac PC-M1 prerequisite cleared</li>
+  <li>mac: [Phase C PC-M1] Apple Sign In via iOS pairing token receive (DC + IPC + UI Path B)</li>
+  <li>ios: Phase C Sub PC-I1 — Apple Sign In via iOS pairing token transfer (auth.session.transfer DC text JSON + AccountView button)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.573</code> · 2026-05-09 14:53 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.573/HandOfficeAgent.zip" type="application/octet-stream" length="39288920" sparkle:edSignature="1bJ8oH26z0IEhtNUakZsQjL4wg9lwCEkxfXTy0lEum0LQgI4aoeNX9r/VS+KDNddnOEXj3u3kTjHb5Dy5oq0BQ==" />
+    </item>
   </channel>
 </rss>
