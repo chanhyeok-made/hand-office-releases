@@ -807,5 +807,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.602/Worp.zip" type="application/octet-stream" length="39297892" sparkle:edSignature="2OyJTs6PFIkOgQQoIyiVaaN29GN6X1LDuJTWJl6wAF4CzILUYQsGz5JFs0eZ3E0l3PikjP+axA4kVo3Tp+mIBg==" />
     </item>
+    <item>
+      <title>v1.0.610</title>
+      <pubDate>Mon, 11 May 2026 16:59:03 +0000</pubDate>
+      <sparkle:version>1.0.610</sparkle:version>
+      <sparkle:shortVersionString>1.0.610</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>architect: iOS CD-I1 Phase 2a LAND + 7th pattern first iOS application (cohesive 79)</li>
+  <li>mac: [CD-M1 Tier 1 + Tier 2] Worp rebrand UI strings + BC-safe Keychain/Logs/NSError migration</li>
+  <li>ios: Sub CD-I1 Phase 2a — Tier 1 visible (4 strings) + Tier 2 Keychain BC-safe migration</li>
+  <li>architect: Tier 1+2 directive + 7th pattern proposal — Hand Office 잔재 광범위 (cohesive 78)</li>
+  <li>architect: Mac CRITICAL fix LAND + 6th pattern first application + 10 cycle baseline (cohesive 77)</li>
+  <li>mac: [CD-M1 root fix] release-mac.sh APP_BRAND single source of truth</li>
+  <li>architect: ⚠️ Sparkle 404 + review gate gap + 6th surface fix pattern (cohesive 76)</li>
+  <li>architect: 🎉 Mac v1.0.602 LAND + Phase 2a dogfood entry point active (cohesive 75)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.610</code> · 2026-05-11 16:57 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.610/Worp.zip" type="application/octet-stream" length="39298978" sparkle:edSignature="eMuQ6Q6LjUcrVtSAABLJ2swOX/UhOTupjFdErrYKzAWTvfjqoQN/+K4hTXEGRrms9fMQwnsukPcwYzgBivqPDA==" />
+    </item>
   </channel>
 </rss>
