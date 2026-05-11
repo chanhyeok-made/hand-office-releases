@@ -777,5 +777,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.575/HandOfficeAgent.zip" type="application/octet-stream" length="39237204" sparkle:edSignature="SYdZDv/u+TLO2Ej/1sWSjFc7jGa1aeoDIT2dXCdWY9usLeqF6Pn6Q3fapccg1HVrQ05DG1zUYdQqvbrvHZZMCA==" />
     </item>
+    <item>
+      <title>v1.0.602</title>
+      <pubDate>Mon, 11 May 2026 16:07:43 +0000</pubDate>
+      <sparkle:version>1.0.602</sparkle:version>
+      <sparkle:shortVersionString>1.0.602</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>architect: 사용자 ack release-mac.sh trigger + Mac directive fire (cohesive 73)</li>
+  <li>architect: Mac distribution query ack — option B + 사용자 go-ahead 의무 (cohesive 72)</li>
+  <li>architect: Phase 2 split — Phase 2a Mac + Phase 2b iOS = Phase 3 결합 (cohesive 71)</li>
+  <li>architect: Phase 1 Worp rebrand 100% LAND ⭐ + Mac 9 cycle baseline (cohesive 70)</li>
+  <li>mac: [CD-M1 + CD-A1 cohesive] Worp rebrand Phase 1 — app + agent + self-migrate BC-safe</li>
+  <li>architect: Server CD-S1 LAND NO-OP ack + Phase 1 progress 50% (cohesive 69)</li>
+  <li>architect: Mac team sequential ack + axis 13 13 application (cohesive 68)</li>
+  <li>architect: BR Phase 분해 + BR-Phase1 directive fire (cohesive 67)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.602</code> · 2026-05-11 16:05 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.602/HandOfficeAgent.zip" type="application/octet-stream" length="39297892" sparkle:edSignature="2OyJTs6PFIkOgQQoIyiVaaN29GN6X1LDuJTWJl6wAF4CzILUYQsGz5JFs0eZ3E0l3PikjP+axA4kVo3Tp+mIBg==" />
+    </item>
   </channel>
 </rss>
