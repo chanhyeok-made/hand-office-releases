@@ -805,7 +805,7 @@ bash scripts/uninstall-service.sh
 </ul>
 <p class="meta">Build <code>v1.0.602</code> · 2026-05-11 16:05 UTC · .dmg 41M / .zip 38M</p>
       ]]></description>
-      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.602/HandOfficeAgent.zip" type="application/octet-stream" length="39297892" sparkle:edSignature="2OyJTs6PFIkOgQQoIyiVaaN29GN6X1LDuJTWJl6wAF4CzILUYQsGz5JFs0eZ3E0l3PikjP+axA4kVo3Tp+mIBg==" />
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.602/Worp.zip" type="application/octet-stream" length="39297892" sparkle:edSignature="2OyJTs6PFIkOgQQoIyiVaaN29GN6X1LDuJTWJl6wAF4CzILUYQsGz5JFs0eZ3E0l3PikjP+axA4kVo3Tp+mIBg==" />
     </item>
   </channel>
 </rss>
