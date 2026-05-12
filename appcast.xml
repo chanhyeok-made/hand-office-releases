@@ -837,5 +837,35 @@ bash scripts/uninstall-service.sh
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.610/Worp.zip" type="application/octet-stream" length="39298978" sparkle:edSignature="eMuQ6Q6LjUcrVtSAABLJ2swOX/UhOTupjFdErrYKzAWTvfjqoQN/+K4hTXEGRrms9fMQwnsukPcwYzgBivqPDA==" />
     </item>
+    <item>
+      <title>v1.0.613</title>
+      <pubDate>Tue, 12 May 2026 01:52:01 +0000</pubDate>
+      <sparkle:version>1.0.613</sparkle:version>
+      <sparkle:shortVersionString>1.0.613</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>architect: 🎉 Option A success + 8th pattern first application (cohesive 82)</li>
+  <li>agent: [CD-A1 Tier 3] MigrateTmuxSocket — process-level continuity (옛 ~/.handoffice/handoffice.sock symlink)</li>
+  <li>architect: tmux session continuity gap + 8th pattern proposal + dogfood 4th reaffirm (cohesive 81)</li>
+  <li>architect: Mac Phase 2a Tier 1+2 LAND + v1.0.610 + 6th+7th pattern strongest (cohesive 80)</li>
+  <li>architect: iOS CD-I1 Phase 2a LAND + 7th pattern first iOS application (cohesive 79)</li>
+  <li>mac: [CD-M1 Tier 1 + Tier 2] Worp rebrand UI strings + BC-safe Keychain/Logs/NSError migration</li>
+  <li>ios: Sub CD-I1 Phase 2a — Tier 1 visible (4 strings) + Tier 2 Keychain BC-safe migration</li>
+  <li>architect: Tier 1+2 directive + 7th pattern proposal — Hand Office 잔재 광범위 (cohesive 78)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.613</code> · 2026-05-12 01:50 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/hand-office-releases/releases/download/v1.0.613/Worp.zip" type="application/octet-stream" length="39312028" sparkle:edSignature="jAiqHIwLM4HyL8qzk9N0Ew6wbwd2h6ibV6uUTl3sbEDlAx4f1XfqBRTBlaA9HruRBI5K8HHZeA4Th0O6pDGCCQ==" />
+    </item>
   </channel>
 </rss>
