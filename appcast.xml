@@ -295,5 +295,35 @@
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.688/Worp.zip" type="application/octet-stream" length="39581225" sparkle:edSignature="fboQl2nJFyM92n7WBoEpsKxDW1ThfbZauHFGhUGrHX9+SUGc+HCwmCLHFk+mOgNFM4frv5l7oBsDcN/YZ13VAw==" />
     </item>
+    <item>
+      <title>v1.0.690</title>
+      <pubDate>Sat, 16 May 2026 17:03:31 +0000</pubDate>
+      <sparkle:version>1.0.690</sparkle:version>
+      <sparkle:shortVersionString>1.0.690</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>mac: Info.plist CFBundleIconName — AppIcon visibility fix (cohesive 133)</li>
+  <li>agent + mac: SR+SG+SD Foundation pieces — file IPC userID extension + HTTP API client</li>
+  <li>mac + agent: SR+SG+SD Foundation v2 (cohesive 132) — Option Revert + A file IPC</li>
+  <li>ios: Phase 4 Stage 3 Foundation — MacPubkey model + AccountAPI.getMacPubkeys (cohesive 131+132 Sub-option 5.C)</li>
+  <li>mac: Foundation cohesive 131 XML fix — comment double-hyphen sequence 회피</li>
+  <li>mac: Foundation cohesive 131 build fix — entitlements XML hardcoded prefix + xcodebuild ad-hoc</li>
+  <li>server: MM Phase 4 Stage 1 — peerRoom dynamic map + peerKey wire + account-mediated trust (cohesive 131)</li>
+  <li>mac + agent: SR+SG+SD Foundation cohesive 131 — Keychain-access-groups (사용자 결정 B1)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.690</code> · 2026-05-16 17:01 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.690/Worp.zip" type="application/octet-stream" length="39582811" sparkle:edSignature="KKs8/gUtqU8qKrJcY4Qb71/xOxayHWOS5SBdfgM/aCut2T0W9acv4DE3T+X6SHncXK/XVSF+EOhXNkyvqTx7BA==" />
+    </item>
   </channel>
 </rss>
