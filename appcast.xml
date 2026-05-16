@@ -145,5 +145,35 @@
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.675/Worp.zip" type="application/octet-stream" length="39565067" sparkle:edSignature="fd3QLkVw1I91JL8+5VDf5HcHaZganeWOydF4bslI/pwVghqJ2+4fWZOUYDF0UXyRlTKSP0H3Kd56ykEXJ4QxDg==" />
     </item>
+    <item>
+      <title>v1.0.676</title>
+      <pubDate>Sat, 16 May 2026 13:08:49 +0000</pubDate>
+      <sparkle:version>1.0.676</sparkle:version>
+      <sparkle:shortVersionString>1.0.676</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>mac: CRITICAL fix — d10e15b mass-rename collision (cohesive 130, sign-in lost root)</li>
+  <li>agent + mac: MM Option D — iOS-active guard (cohesive 127, 사용자 invariant #1 preserve)</li>
+  <li>agent + mac: MM Phase 5 fix — agent connect signaling URL fallback (v2-only paired Mac)</li>
+  <li>scripts: release-mac.sh notarytool profile BC-safe fallback (CD-A1 rebrand cohesive)</li>
+  <li>agent: MM Phase 2 Commit 3 — wire integration test (server Option A cohesive 126)</li>
+  <li>server: MM Phase 2 Option A — role=mac-initiator (cohesive 126)</li>
+  <li>mac + agent: MM Phase 2 Commit 4 — UI hook + agent connect subcommand</li>
+  <li>agent: MM Phase 2 scaffolding — Mac-to-Mac initiator code path (Option A)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.676</code> · 2026-05-16 13:06 UTC · .dmg 41M / .zip 39M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.676/Worp.zip" type="application/octet-stream" length="39565148" sparkle:edSignature="9D/Xiwht/6yKR1+W26mWiREPNjB5uXAnSXo63vD1hIKg8TJBObX/W3hLnAQCKOFaqlsx+Jy1sBQ1/VELDLZpBA==" />
+    </item>
   </channel>
 </rss>
