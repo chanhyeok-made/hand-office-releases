@@ -235,5 +235,35 @@
       ]]></description>
       <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.680/Worp.zip" type="application/octet-stream" length="39568491" sparkle:edSignature="E9CIpwobIYzLs3ijeKQ+ZCR23hm3FTrL03Y4rx99W57sXQHpl9BMcej1itNTHKNyLyDlOAHW1QAI1d7IxTO0Dg==" />
     </item>
+    <item>
+      <title>v1.0.686</title>
+      <pubDate>Sat, 16 May 2026 14:26:07 +0000</pubDate>
+      <sparkle:version>1.0.686</sparkle:version>
+      <sparkle:shortVersionString>1.0.686</sparkle:shortVersionString>
+      <description><![CDATA[
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.5; padding: 4px 8px; }
+  h3 { font-size: 14px; margin: 8px 0 6px; }
+  ul { margin: 4px 0 12px; padding-left: 22px; }
+  li { margin-bottom: 3px; }
+  .meta { color: #888; font-size: 12px; margin-top: 12px; }
+  code { background: rgba(127,127,127,0.15); padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+<h3>What is new in this update</h3>
+<ul>
+  <li>ios: Phase 4 Stage 3 Foundation — MacPubkey model + AccountAPI.getMacPubkeys (cohesive 131+132 Sub-option 5.C)</li>
+  <li>mac: Foundation cohesive 131 XML fix — comment double-hyphen sequence 회피</li>
+  <li>mac: Foundation cohesive 131 build fix — entitlements XML hardcoded prefix + xcodebuild ad-hoc</li>
+  <li>server: MM Phase 4 Stage 1 — peerRoom dynamic map + peerKey wire + account-mediated trust (cohesive 131)</li>
+  <li>mac + agent: SR+SG+SD Foundation cohesive 131 — Keychain-access-groups (사용자 결정 B1)</li>
+  <li>architect: Phase 4 Option A spec — 사용자 결정 5.C Account-mediated direct P2P cohesive</li>
+  <li>architect: Phase 4 Option A spec — 결정 항목 5 (PTY relay architecture) 추가</li>
+  <li>mac: 사용자 explicit feedback — menubar icon iOS AppIcon cohesive (wormhole spiral)</li>
+  <li>No changes</li>
+</ul>
+<p class="meta">Build <code>v1.0.686</code> · 2026-05-16 14:24 UTC · .dmg 41M / .zip 38M</p>
+      ]]></description>
+      <enclosure url="https://github.com/chanhyeok-made/worp-releases/releases/download/v1.0.686/Worp.zip" type="application/octet-stream" length="39574462" sparkle:edSignature="/lXCa+KeBrH/04aNWFB5RuLq+GjLB3W+UBblV0AfZQEguEQj1hg3FZx5WmEBxwxUXUTNqIqqbQkV/Q5ZtJ1wCA==" />
+    </item>
   </channel>
 </rss>
